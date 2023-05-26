@@ -41,7 +41,7 @@ st.title("Memory Bot")
 
 # API
 api = st.sidebar.text_input("API-key", type="password")
-# api = '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'
+
 model = st.sidebar.selectbox(label="Choose model", options=['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'text-davinci-003'])
 
 if api:
